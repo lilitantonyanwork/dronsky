@@ -3,15 +3,679 @@
 <head>
     <meta charset="UTF-8">
     <title>Dronsky</title>
-  <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
+
+    <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
   <header>
-
+      <nav class="navbar">
+          <div class="container df a-center j-spc-btw">
+              <div class="navbar__left">
+                  <a href="" class="navbar__logo">
+                      <img src="img/logo.svg" alt="logo">
+                  </a>
+              </div>
+              <div class="navbar__center">
+                  <ul class="menu df a-center">
+                      <li class="menu__item">
+                          <a href="" class="menu__link">
+                              Главная
+                          </a>
+                      </li>
+                      <li class="menu__item has-sub">
+                          <a href="" class="menu__link">
+                              Услуги
+                          </a>
+                          <ul class="menu__sub dn">
+                              <li class="menu__item">
+                                  <a href="" class="menu__link">
+                                      VR тур
+                                  </a>
+                              </li>
+                              <li class="menu__item has-sub">
+                                  <a href="" class="menu__link">
+                                      Аэросъемка
+                                  </a>
+                                  <ul class="menu__sub dn">
+                                      <li class="menu__item">
+                                          <a href="" class="menu__link">
+                                              Промо-ролик
+                                          </a>
+                                      </li>
+                                      <li class="menu__item">
+                                          <a href="" class="menu__link">
+                                              Имиджевая реклама
+                                          </a>
+                                      </li>
+                                      <li class="menu__item">
+                                          <a href="" class="menu__link">
+                                              Короткометражные фильмы
+                                          </a>
+                                      </li>
+                                      <li class="menu__item">
+                                          <a href="" class="menu__link">
+                                              Репортажная сьемка
+                                          </a>
+                                      </li>
+                                      <li class="menu__item">
+                                          <a href="" class="menu__link">
+                                              Хромокей
+                                          </a>
+                                      </li>
+                                      <li class="menu__item">
+                                          <a href="" class="menu__link">
+                                              Рекламные ролики для OZON и WB
+                                          </a>
+                                      </li>
+                                  </ul>
+                              </li>
+                              <li class="menu__item">
+                                  <a href="" class="menu__link">
+                                      Видеосьемка
+                                  </a>
+                              </li>
+                              <li class="menu__item">
+                                  <a href="" class="menu__link">
+                                      Смм/маркетинг
+                                  </a>
+                              </li>
+                              <li class="menu__item">
+                                  <a href="" class="menu__link">
+                                      Фотограф
+                                  </a>
+                              </li>
+                          </ul>
+                      </li>
+                      <li class="menu__item">
+                          <a href="" class="menu__link">
+                              О нас
+                          </a>
+                      </li>
+                      <li class="menu__item">
+                          <a href="" class="menu__link">
+                              Портфолио
+                          </a>
+                      </li>
+                      <li class="menu__item">
+                          <a href="" class="menu__link">
+                              Контакты
+                          </a>
+                      </li>
+                  </ul>
+              </div>
+              <div class="navbar__right df a-center">
+                  <a href="" class="header__link header__link--whatsapp"></a>
+                  <a href="" class="header__link header__link--tg"></a>
+                  <a href="" class="header__link header__link--vk"></a>
+                  <a href="" class="header__link header__link--phone"></a>
+              </div>
+          </div>
+      </nav>
   </header>
-  <main></main>
-  <footer></footer>
-<script src="js/main.js"></script>
+  <main>
+      <section class="banner">
+          <div class="container">
+              <div class="banner__content df f-column">
+                  <h1 class="banner__title">От рекламных роликов до VR-туров — полный спектр видеорешений</h1>
+                  <p class="banner__text">Не важно, нужно ли вам снять лаконичный рекламный ролик или создать иммерсивный тур — мы подберем оптимальное решение под ваш бюджет и задачи.</p>
+                    <div class="banner__actions df">
+                        <a href="" class="btn btn__white">Оставить заявку</a>
+                        <a href="" class="btn btn__white--transparent">Смотреть портфолио</a>
+                    </div>
+              </div>
+          </div>
+      </section>
+      <section class="why-us">
+          <div class="container">
+              <div class="why-us__content df">
+                  <div class="why-us__left">
+                      <h2 class="section__title">Почему <span>выбирают</span> нас</h2>
+                      <p class="section__text">Мы не просто создаем видео — мы помогаем вашему бизнесу выделяться, продавать
+                          и запоминаться. Вот что делает нас особенными:</p>
+                      <a href="" class="btn btn__blue">Оставить заявку</a>
+                  </div>
+                  <div class="why-us__right df j-spc-btw">
+                      <div class="why-us__item">
+                          <div class="why-us__img">
+                              <img src="img/w1.png" alt="">
+                          </div>
+                          <div class="why-us__number">1</div>
+                          <h3 class="why-us__title">Быстрый срок даже для сложных проектов.</h3>
+                      </div>
+                      <div class="why-us__item">
+                          <div class="why-us__img">
+                              <img src="img/w2.png" alt="">
+                          </div>
+                          <div class="why-us__number">2</div>
+                          <h3 class="why-us__title">Полный цикл <br> производства <br>
+                              «под ключ»</h3>
+                      </div>
+                      <div class="why-us__item">
+                          <div class="why-us__img">
+                              <img src="img/w3.png" alt="">
+                          </div>
+                          <div class="why-us__number">3</div>
+                          <h3 class="why-us__title">Создаем видео, которые увеличивают продажиf</h3>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <section class="services">
+          <div class="container">
+              <div class="services__content">
+                  <h2 class="section__title">Наши услуги</h2>
+                  <div class="service__list df f-wrap">
+                      <div class="service__item service__item--large df f-column">
+                          <h3 class="service__type">VR тур</h3>
+                          <div class="service__text">
+                              <ul>
+                                  <li>Создание виртуального тура для баз</li>
+                                  <li>Имиджевый тур для строительных площадок</li>
+                                  <li>Виртуальные видео путешествия</li>
+                              </ul>
+                          </div>
+                          <a href="" class="btn btn__blue">Подробнее</a>
+                      </div>
+                      <div class="service__item service__item--large df f-column">
+                          <h3 class="service__type">Видеосьемка</h3>
+                          <div class="service__text">
+                              <ul>
+                                  <li>Промо-ролик</li>
+                                  <li>Имиджевая реклама</li>
+                                  <li>Короткометражные фильмы </li>
+                                  <li>Сьемка коротких роликов по соц сетям </li>
+                                  <li>Репортажная сьемка </li>
+                                  <li>Хромокей</li>
+                                  <li>Рекламные ролики для OZON и WB</li>
+                              </ul>
+                          </div>
+                          <a href="" class="btn btn__white">Подробнее</a>
+                      </div>
+                      <div class="service__item df f-column">
+                          <h3 class="service__type">Аэросъёмка</h3>
+                          <div class="service__text">
+                              <ul>
+                                  <li>Съемка недвижимости</li>
+                                  <li>Интерьерная съемка с квадрокоптера</li>
+                                  <li>Аэросъемка мероприятий</li>
+                                  <li>3д Фотограмметрия</li>
+                              </ul>
+                          </div>
+                          <a href="" class="btn btn__white">Подробнее</a>
+                      </div>
+                      <div class="service__item df f-column">
+                          <h3 class="service__type service__type--black">Фотограф</h3>
+                          <div class="service__text">
+                              <ul>
+                                  <li>Репортажная съемка </li>
+                                  <li>Индивидуальная съемка</li>
+                                  <li>Коммерческая съемка ( объекты, производство, продукция)</li>
+                                  <li>Аэросъемка и подводная съемка</li>
+                                  <li>Ретросъемка ( палароидные фото)</li>
+                              </ul>
+                          </div>
+                          <a href="" class="btn btn__white">Подробнее</a>
+                      </div>
+                      <div class="service__item df f-column">
+                          <h3 class="service__title">Не нашли нужную услугу?</h3>
+                          <div class="service__text">
+                            <p>Оставьте заявку и мы свяжемся с вами чтобы обсудить ваш проект</p>
+                          </div>
+                          <a href="" class="btn btn__white">Напишите нам</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <section class="portfolio">
+          <div class="container">
+              <div class="portfolio__content">
+                  <h2 class="section__title">Наши работы</h2>
+                  <p class="section__text">Снимаем так, чтобы вам хотелось показать это всем!</p>
+                  <div class="portfolio__content">
+                        <h3 class="portfolio__title">
+                            <span>Видео</span> портфолио
+                        </h3>
+                      <div class="portfolio__list df  f-wrap" >
+                          <div class="portfolio__item">
+                              <img src="img/p1.png" alt="">
+                              <div class="portfolio__item--content">
+                                  <a href="" class="btn btn__play"></a>
+                                  <h3>Дорога домой</h3>
+                                  <p>Мы любим животных и стараемся поддерживать тех из них, кому не посчастливилось</p>
+                              </div>
+                          </div>
+                          <div class="portfolio__item">
+                              <img src="img/p2.png" alt="">
+                              <div class="portfolio__item--content">
+                                  <a href="" class="btn btn__play"></a>
+                                  <h3>Дорога домой</h3>
+                                  <p>Мы любим животных и стараемся поддерживать тех из них, кому не посчастливилось</p>
+                              </div>
+                          </div>
+                          <div class="portfolio__item">
+                              <img src="img/p3.png" alt="">
+                              <div class="portfolio__item--content">
+                                  <a href="" class="btn btn__play"></a>
+                                  <h3>Дорога домой</h3>
+                                  <p>Мы любим животных и стараемся поддерживать тех из них, кому не посчастливилось</p>
+                              </div>
+                          </div>
+                          <div class="portfolio__item">
+                              <img src="img/p4.png" alt="">
+                              <div class="portfolio__item--content">
+                                  <a href="" class="btn btn__play"></a>
+                                  <h3>Дорога домой</h3>
+                                  <p>Мы любим животных и стараемся поддерживать тех из них, кому не посчастливилось</p>
+                              </div>
+                          </div>
+                      </div>
+                      <a href="" class="btn btn__white">Все наши видео</a>
+                  </div>
+                  <div class="portfolio__content">
+                      <h3 class="portfolio__title">
+                          <span>VR-туры</span> в портфолио
+                      </h3>
+                      <div class="portfolio__list portfolio__slider swiper df  f-wrap" >
+                          <div class="swiper-button-next"></div>
+                          <div class="swiper-button-prev"></div>
+                          <div class="swiper-wrapper">
+                              <div class="swiper-slide portfolio__item">
+                                  <img src="img/p1.png" alt="">
+                                  <div class="portfolio__item--content">
+                                      <div class="portfolio__tag">
+                                          <span></span>
+                                          #VR тур
+                                      </div>
+                                      <a href="" class="btn btn__play"></a>
+                                      <h3>Дорога домой</h3>
+                                      <p>Мы любим животных и стараемся поддерживать тех из них, кому не посчастливилось</p>
+                                  </div>
+                              </div>
+                              <div class="swiper-slide portfolio__item">
+                                  <img src="img/p3.png" alt="">
+                                  <div class="portfolio__item--content">
+                                      <div class="portfolio__tag">
+                                          <span></span>
+                                          #VR тур
+                                      </div>
+                                      <a href="" class="btn btn__play"></a>
+                                      <h3>Дорога домой</h3>
+                                      <p>Мы любим животных и стараемся поддерживать тех из них, кому не посчастливилось</p>
+                                  </div>
+                              </div>
+                              <div class="swiper-slide portfolio__item">
+                                  <img src="img/p1.png" alt="">
+                                  <div class="portfolio__item--content">
+                                      <div class="portfolio__tag">
+                                          <span></span>
+                                          #VR тур
+                                      </div>
+                                      <a href="" class="btn btn__play"></a>
+                                      <h3>Дорога домой</h3>
+                                      <p>Мы любим животных и стараемся поддерживать тех из них, кому не посчастливилось</p>
+                                  </div>
+                              </div>
+                              <div class="swiper-slide portfolio__item">
+                                  <img src="img/p3.png" alt="">
+                                  <div class="portfolio__item--content">
+                                      <div class="portfolio__tag">
+                                          <span></span>
+                                          #VR тур
+                                      </div>
+                                      <a href="" class="btn btn__play"></a>
+                                      <h3>Дорога домой</h3>
+                                      <p>Мы любим животных и стараемся поддерживать тех из них, кому не посчастливилось</p>
+                                  </div>
+                              </div>
+                          </div>
+
+                      </div>
+                      <a href="" class="btn btn__white">Все наши работы</a>
+                  </div>
+
+              </div>
+          </div>
+      </section>
+      <section class="about">
+          <div class="container">
+              <div class="about__content df">
+                  <div class="about__left">
+                      <img src="img/about.png" alt="">
+                  </div>
+                  <div class="about__right">
+                      <h2 class="section__title">О нас</h2>
+                      <div class="about__text">
+                          <p>
+                              <span>DronSKY</span> — профессиональная студия виртуальных туров и иммерсивных технологий для бизнеса.
+                          </p>
+                          <p>Опытная команда создаст любой контент необходимый клиенту, учитывая все его пожелания.</p>
+                          <p>Активная съемка, съемка лаконичных и спокойных мест, или же обычная недвижимость, которая выставляется на продажу, будут показаны в лучших ракурсах для клиента. Ведь мы используем передовое оборудование DJI Mavic 3 PRO CINE. Монтажер с 4-х летним опытом в сфере выведет вашу рекламу в топ-просмотров среди конкурентов.</p>
+
+                      </div>
+                      <a href="" class="btn btn__white">Подробнее</a>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <section class="steps">
+          <div class="container">
+              <div class="step__content">
+                  <h2 class="section__title">Этапы работы</h2>
+                  <div class="step__list df f-wrap">
+                      <div class="step__item">
+                        <div class="step__icon"></div>
+                          <h3 class="step__title">Обсуждение</h3>
+                          <p class="step__text">Разбираем ваши задачи и цели, чтобы создать видео, которое действительно работает.</p>
+                          <div class="step__time">1-2 дня</div>
+                      </div>
+                      <div class="step__item">
+                          <div class="step__icon"></div>
+                          <h3 class="step__title">Сценарий</h3>
+                          <p class="step__text">Превращаем идеи в четкий план с продуманной структурой и эффектными акцентами.</p>
+                          <div class="step__time">2-5 дней</div>
+                      </div>
+                      <div class="step__item">
+                          <div class="step__icon"></div>
+                          <h3 class="step__title">Съемка</h3>
+                          <p class="step__text">Профессиональная реализация
+                              с качественным оборудованием и вниманием
+                              к деталям.</p>
+                          <div class="step__time">От 1 дня</div>
+                      </div>
+                      <div class="step__item">
+                          <div class="step__icon"></div>
+                          <h3 class="step__title">Монтаж</h3>
+                          <p class="step__text">Собираем готовый продукт с грамотной цветокоррекцией, звуком и графикой.</p>
+                          <div class="step__time">3-7 дней</div>
+                      </div>
+                      <div class="step__item">
+                          <div class="step__icon"></div>
+                          <h3 class="step__title">Результат</h3>
+                          <p class="step__text">Вы получаете видео, готовое к публикации,
+                              с рекомендациями по эффективному использованию.</p>
+
+                      </div>
+                      <div class="step__item">
+
+                          <h3 class="step__title">Хотите обсудить проект?</h3>
+                          <p class="step__text">Четкие сроки, прозрачный процесс, предсказуемый результат.</p>
+                          <a href="" class="btn btn__white">Напишите нам</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <section class="review">
+          <div class="container">
+              <h2 class="section__title">Отзывы</h2>
+              <div class="review__list df">
+                  <div class="review__item">
+                      <div class="review__user df">
+                          <div class="review__img">
+                              <img src="img/user.png" alt="">
+                          </div>
+                          <div class="review__info df f-column">
+                              <h3>Алина К.</h3>
+                              <p>Малый бизнес, рекламный ролик</p>
+                          </div>
+                      </div>
+                      <div class="review__text">
+                          Заказали у студии проморолик для нашего кафе — остались в восторге!
+                          Сняли всё за один день, при этом учли все пожелания по атмосфере. Видео дало +40%
+                          к броням через Instagram. Отдельное спасибо за оперативный монтаж — сделали за 3 дня вместо обещанных пяти!
+                      </div>
+                      <a href="" class="btn btn__white">Смотреть все отзывы</a>
+                  </div>
+                  <div class="review__item">
+                      <div class="review__user df">
+                          <div class="review__img">
+                              <img src="img/user.png" alt="">
+                          </div>
+                          <div class="review__info df f-column">
+                              <h3>Алина К.</h3>
+                              <p>Малый бизнес, рекламный ролик</p>
+                          </div>
+                      </div>
+                      <div class="review__text">
+                          Заказали у студии проморолик для нашего кафе — остались в восторге!
+                          Сняли всё за один день, при этом учли все пожелания по атмосфере. Видео дало +40%
+                          к броням через Instagram. Отдельное спасибо за оперативный монтаж — сделали за 3 дня вместо обещанных пяти!
+                      </div>
+                      <a href="" class="btn btn__white">Смотреть все отзывы</a>
+                  </div>
+                  <div class="review__item">
+                      <div class="review__user df">
+                          <div class="review__img">
+                              <img src="img/user.png" alt="">
+                          </div>
+                          <div class="review__info df f-column">
+                              <h3>Алина К.</h3>
+                              <p>Малый бизнес, рекламный ролик</p>
+                          </div>
+                      </div>
+                      <div class="review__text">
+                          Заказали у студии проморолик для нашего кафе — остались в восторге!
+                          Сняли всё за один день, при этом учли все пожелания по атмосфере. Видео дало +40%
+                          к броням через Instagram. Отдельное спасибо за оперативный монтаж — сделали за 3 дня вместо обещанных пяти!
+                      </div>
+                      <a href="" class="btn btn__white">Смотреть все отзывы</a>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <section class="partners">
+          <div class="container">
+              <div class="partner__list swiper">
+                  <div class="swiper-wrapper">
+                      <div class="swiper-slide ">
+                          <div class="partner__item">
+                            <img src="img/l1.svg" alt="">
+                          </div>
+                      </div>
+                      <div class="swiper-slide partner__item">
+                          <div class="partner__item">
+                              <img src="img/l2.svg" alt="">
+                          </div>
+                      </div>
+                      <div class="swiper-slide partner__item">
+
+                          <div class="partner__item">
+                              <img src="img/l3.svg" alt="">
+                          </div>
+                      </div>
+                      <div class="swiper-slide partner__item">
+
+                          <div class="partner__item">
+                              <img src="img/l4.svg" alt="">
+                          </div>
+                      </div>
+                      <div class="swiper-slide partner__item">
+
+                          <div class="partner__item">
+                              <img src="img/l5.svg" alt="">
+                          </div>
+                      </div>
+                      <div class="swiper-slide partner__item">
+
+                          <div class="partner__item">
+                              <img src="img/l1.svg" alt="">
+                          </div>
+                      </div>
+                      <div class="swiper-slide partner__item">
+
+                          <div class="partner__item">
+                              <img src="img/l2.svg" alt="">
+                          </div>
+                      </div>
+                      <div class="swiper-slide partner__item">
+                          <div class="partner__item">
+                              <img src="img/l3.svg" alt="">
+                          </div>
+                      </div>
+                      <div class="swiper-slide partner__item">
+                          <div class="partner__item">
+                              <img src="img/l4.svg" alt="">
+                          </div>
+                      </div>
+                      <div class="swiper-slide partner__item">
+                          <div class="partner__item">
+                              <img src="img/l5.svg" alt="">
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <section class="contact">
+          <div class="container">
+              <div class="contact__content df">
+                  <div class="contact__left">
+                      <img src="img/contact.png" alt="">
+                  </div>
+                  <div class="contact__right">
+                      <h2 class="section__title">
+                          Готовы <span>обсудить</span> ваш проект?
+                      </h2>
+                      <p class="section__text">
+                         <strong>Оставьте заявку</strong> — мы перезвоним в течение 1 часа, чтобы подобрать подходящий формат
+                      </p>
+                      <form action="" class="form df f-column">
+                          <div class="form__row">
+                              <input type="text" class="form__input" placeholder="Имя">
+                          </div>
+                          <div class="form__row">
+                              <input type="tel" class="form__input js-phone-mask" placeholder="+7(999) 999-99-99"  data-required=""
+                                     data-validate-as="phone"
+                                     inputmode="numeric">
+                          </div>
+                          <div class="form__row df a-center">
+                             <button type="submit" class="btn btn__blue">Отправить</button>
+                             <p>Нажимая на кнопку вы соглашаетесь с <a href="">политикой конфиденциальности</a></p>
+                          </div>
+                      </form>
+                  </div>
+              </div>
+          </div>
+      </section>
+  </main>
+  <footer>
+      <div class="container">
+          <div class="footer__top df">
+              <div class="footer__col">
+                  <a href="" class="footer__logo">
+                      <img src="img/logo.svg" alt="">
+                  </a>
+                  <p class="footer__text">
+                      <strong>Профессиональный видеопродакшен.</strong> Создаем эмоции, которые продают.
+                  </p>
+                  <a class="yandex__link df a-center">
+                      <img src="img/yandex.svg" alt="">
+                      5,0
+                      <img src="img/star.svg" alt="">
+                  </a>
+              </div>
+              <div class="footer__col">
+                  <h4 class="footer__title">Меню</h4>
+                  <div class="footer__menu df f-column">
+                      <a href="" class="footer__link">Главная</a>
+                      <a href="" class="footer__link">Услуги</a>
+                      <a href="" class="footer__link">О нас</a>
+                      <a href="" class="footer__link">Бэкстейдж</a>
+                      <a href="" class="footer__link">Портфолио</a>
+                      <a href="" class="footer__link">Контакты</a>
+                  </div>
+              </div>
+              <div class="footer__col">
+                  <h4 class="footer__title">Услуги</h4>
+                  <div class="footer__menu df f-column">
+                      <a href="" class="footer__link">VR тур</a>
+                      <a href="" class="footer__link">Видеосьемка</a>
+                      <a href="" class="footer__link">Аэросъемка</a>
+                      <a href="" class="footer__link">Фотограф</a>
+                      <a href="" class="footer__link">Нейрографика</a>
+                      <a href="" class="footer__link">Смм/маркетинг</a>
+                  </div>
+              </div>
+              <div class="footer__col df f-column a-end">
+                  <a href="" class="btn btn__request">
+                      Бесплатная консультация
+                  </a>
+                  <a href="tel:8 (990) 989-88-99" class="footer__tel">
+                      8 (990) 989-88-99
+                  </a>
+                  <a href="mailto:dronsky@dr.ru" class="footer__email">dronsky@dr.ru</a>
+                  <div class="footer__socials df ">
+                          <a href="" class="social__item social__item-whatsapp df a-center j-center">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                                  <path d="M7.0032 0.523926H6.99996C3.42915 0.523926 0.525391 3.4285 0.525391 7.00012C0.525391 8.41678 0.981962 9.72983 1.7583 10.796L0.9512 13.2019L3.44049 12.4061C4.46453 13.0845 5.6861 13.4763 7.0032 13.4763C10.574 13.4763 13.4778 10.5709 13.4778 7.00012C13.4778 3.42931 10.574 0.523926 7.0032 0.523926ZM10.7715 9.66912C10.6153 10.1103 9.9952 10.4762 9.50058 10.5831C9.1622 10.6551 8.7202 10.7126 7.2323 10.0957C5.3291 9.30726 4.10349 7.37331 4.00796 7.24783C3.91649 7.12235 3.23891 6.22378 3.23891 5.29445C3.23891 4.36512 3.71087 3.91259 3.9011 3.71831C4.05734 3.55883 4.31558 3.48597 4.5633 3.48597C4.64344 3.48597 4.71549 3.49002 4.78025 3.49326C4.97049 3.50135 5.06601 3.51269 5.19149 3.81302C5.34772 4.18945 5.7282 5.11878 5.77353 5.21431C5.81968 5.30983 5.86582 5.43935 5.80106 5.56483C5.74034 5.69435 5.68691 5.75183 5.59139 5.86193C5.49587 5.97202 5.4052 6.05621 5.30968 6.1744C5.22225 6.27721 5.12349 6.38731 5.23358 6.57755C5.34368 6.76374 5.72415 7.38464 6.28434 7.88331C7.00725 8.52688 7.59334 8.7325 7.80301 8.81993C7.95925 8.88469 8.14544 8.86931 8.25958 8.74788C8.40449 8.59164 8.58339 8.33259 8.76553 8.07759C8.89506 7.89464 9.05858 7.87197 9.2302 7.93674C9.40506 7.99745 10.3303 8.45483 10.5206 8.54954C10.7108 8.64507 10.8363 8.6904 10.8824 8.77055C10.9278 8.85069 10.9278 9.22712 10.7715 9.66912Z" fill="#202020"/>
+                              </svg>
+                          </a>
+                          <a href="" class="social__item social__item-tg df a-center j-center">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="14" viewBox="0 0 16 14" fill="none">
+                                  <path d="M1.03615 6.907L4.38781 8.11835L12.345 2.94151C12.4604 2.86643 12.5785 3.03314 12.4791 3.13059L6.45486 9.03143L6.23084 12.335C6.21378 12.5863 6.49825 12.7262 6.66707 12.5496L8.52192 10.6086L11.9127 13.3402C12.2782 13.6347 12.8075 13.4271 12.9061 12.9507L15.2671 1.54233C15.4018 0.891511 14.8025 0.342337 14.2177 0.580672L1.0191 5.9591C0.605064 6.12784 0.616341 6.7553 1.03615 6.907Z" fill="#202020"/>
+                              </svg>
+                          </a>
+                          <a href="" class="social__item social__item-vk df a-center j-center">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="12" viewBox="0 0 20 12" fill="none">
+                                  <path d="M19.6107 10.5687C19.5872 10.5169 19.5652 10.4739 19.5449 10.4395C19.2078 9.81875 18.5636 9.05687 17.6128 8.15361L17.5927 8.13293L17.5826 8.12278L17.5725 8.11239H17.5622C17.1307 7.69178 16.8574 7.40898 16.743 7.26419C16.5336 6.98837 16.4867 6.70919 16.6011 6.42631C16.682 6.21259 16.9857 5.76123 17.5115 5.07162C17.7882 4.70615 18.0072 4.41324 18.169 4.19256C19.3358 2.60665 19.8416 1.59323 19.6864 1.1519L19.6261 1.04877C19.5856 0.986684 19.4811 0.929884 19.3127 0.878083C19.1439 0.82639 18.9282 0.817842 18.6651 0.852291L15.7519 0.872867C15.7047 0.855769 15.6373 0.857362 15.5495 0.878083C15.4618 0.898803 15.418 0.9092 15.418 0.9092L15.3673 0.9351L15.327 0.966217C15.2933 0.986793 15.2562 1.02298 15.2157 1.07471C15.1754 1.12626 15.1417 1.18675 15.1148 1.25569C14.7976 2.08998 14.437 2.86565 14.0323 3.58268C13.7827 4.01024 13.5536 4.38078 13.3443 4.69452C13.1353 5.00816 12.9599 5.23923 12.8184 5.38736C12.6767 5.53562 12.5488 5.6544 12.4339 5.74413C12.3193 5.8339 12.2317 5.87182 12.1711 5.85795C12.1103 5.84408 12.0531 5.83031 11.9989 5.81654C11.9046 5.75446 11.8287 5.67002 11.7715 5.56315C11.714 5.45629 11.6753 5.32179 11.6551 5.15976C11.635 4.99762 11.6231 4.85815 11.6197 4.74089C11.6165 4.62378 11.618 4.45812 11.6248 4.2444C11.6318 4.03056 11.635 3.88588 11.635 3.81003C11.635 3.54798 11.64 3.26358 11.65 2.95676C11.6602 2.64994 11.6684 2.40683 11.6753 2.22774C11.6822 2.04846 11.6854 1.85879 11.6854 1.65883C11.6854 1.45887 11.6735 1.30206 11.65 1.18824C11.6267 1.07456 11.5911 0.964225 11.544 0.857254C11.4967 0.750391 11.4275 0.667727 11.3367 0.609043C11.2456 0.550432 11.1325 0.503919 10.9978 0.469361C10.6404 0.38666 10.1852 0.341923 9.63208 0.334968C8.37781 0.321202 7.57187 0.404012 7.21445 0.583287C7.07284 0.659033 6.94469 0.762526 6.8301 0.893442C6.70868 1.04519 6.69175 1.128 6.7794 1.14162C7.18409 1.2036 7.47058 1.35186 7.63919 1.58627L7.69995 1.71049C7.74722 1.80011 7.79441 1.95877 7.84164 2.18626C7.8888 2.41375 7.91923 2.6654 7.93263 2.94107C7.96628 3.44449 7.96628 3.87541 7.93263 4.23389C7.89886 4.59252 7.86697 4.8717 7.83654 5.07166C7.8061 5.27162 7.76061 5.43365 7.69995 5.55772C7.63919 5.68183 7.59877 5.75768 7.5785 5.78521C7.55827 5.81274 7.5414 5.83009 7.52801 5.8369C7.44036 5.87124 7.34919 5.88874 7.25484 5.88874C7.16035 5.88874 7.04577 5.84042 6.91092 5.74384C6.77611 5.64727 6.63619 5.51461 6.49118 5.34566C6.34616 5.17667 6.18261 4.94053 6.00047 4.63718C5.81846 4.33384 5.62962 3.97532 5.43404 3.56164L5.27223 3.26162C5.17108 3.06862 5.0329 2.78759 4.85755 2.41879C4.6821 2.04984 4.52702 1.69295 4.39221 1.34821C4.33832 1.20342 4.25736 1.09318 4.14948 1.01733L4.09885 0.986213C4.06519 0.958683 4.01116 0.929449 3.93704 0.898296C3.86281 0.867179 3.78536 0.844865 3.70436 0.831136L0.932682 0.851711C0.649451 0.851711 0.457277 0.917314 0.356088 1.04834L0.315591 1.11032C0.29536 1.14484 0.285156 1.19997 0.285156 1.27587C0.285156 1.35172 0.305387 1.44482 0.345884 1.55505C0.750499 2.52732 1.19051 3.46499 1.66591 4.36821C2.14132 5.27144 2.55444 5.99901 2.90502 6.55027C3.25567 7.10194 3.6131 7.62259 3.97728 8.11199C4.34147 8.60156 4.58254 8.91531 4.70049 9.05314C4.81858 9.19123 4.91134 9.29447 4.97876 9.3634L5.2317 9.61158C5.39354 9.77709 5.63121 9.97531 5.9448 10.2062C6.25847 10.4373 6.60572 10.6648 6.98674 10.8891C7.36783 11.113 7.81117 11.2957 8.31701 11.437C8.82278 11.5785 9.31505 11.6352 9.79389 11.6078H10.9572C11.1931 11.587 11.3719 11.5112 11.4934 11.3802L11.5336 11.3284C11.5607 11.2873 11.586 11.2233 11.6094 11.1373C11.6331 11.0511 11.6448 10.9562 11.6448 10.8529C11.6379 10.5565 11.66 10.2893 11.7105 10.0515C11.7609 9.81367 11.8183 9.6344 11.8826 9.51366C11.9469 9.39303 12.0193 9.29124 12.1 9.20872C12.1809 9.12602 12.2385 9.07592 12.2723 9.05868C12.3059 9.04133 12.3327 9.02956 12.3529 9.02249C12.5148 8.96736 12.7052 9.02075 12.9246 9.18293C13.1438 9.34496 13.3494 9.54503 13.5417 9.78281C13.734 10.0208 13.9649 10.2878 14.2346 10.5842C14.5045 10.8808 14.7404 11.1012 14.9427 11.2462L15.1449 11.3703C15.28 11.4531 15.4553 11.529 15.6712 11.5979C15.8866 11.6668 16.0754 11.6841 16.2375 11.6496L18.827 11.6083C19.0831 11.6083 19.2824 11.565 19.4238 11.4789C19.5654 11.3927 19.6496 11.2978 19.6767 11.1945C19.7038 11.0911 19.7052 10.9738 19.6818 10.8427C19.6578 10.7119 19.6342 10.6204 19.6107 10.5687Z" fill="#202020"/>
+                              </svg>
+                          </a>
+                  </div>
+              </div>
+
+          </div>
+          <div class="footer__bottom df j-spc-btw">
+              <a href="" class="footer__link">Политика конфиденциальности</a>
+              <p class="copyright">© 2025 DronSKY. Все права на материалы, дизайн и контент сайта защищены в соответствии с законодательством РФ.</p>
+              <a href="" class="footer__link">Договор оферты</a>
+
+          </div>
+      </div>
+  </footer>
+  <div class="modal modal__project dn">
+      <div class="modal__content">
+          <button class="btn btn__close">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                  <path d="M19.4577 16.836C19.8054 17.1837 20.0007 17.6552 20.0007 18.1469C20.0007 18.6385 19.8054 19.1101 19.4577 19.4577C19.1101 19.8054 18.6385 20.0007 18.1469 20.0007C17.6552 20.0007 17.1837 19.8054 16.836 19.4577L10.3 12.9216C10.2205 12.8421 10.1128 12.7975 10.0004 12.7975C9.888 12.7975 9.78022 12.8421 9.70075 12.9216L3.16469 19.4577C2.8165 19.8029 2.34578 19.996 1.85553 19.9949C1.36528 19.9938 0.895425 19.7986 0.548763 19.452C0.202101 19.1053 0.0068647 18.6354 0.00577278 18.1452C0.00468086 17.6549 0.197822 17.1842 0.542937 16.836L7.07907 10.3001C7.11842 10.2608 7.14964 10.2141 7.17093 10.1627C7.19223 10.1112 7.20319 10.0561 7.20319 10.0005C7.20319 9.94485 7.19223 9.88975 7.17093 9.83834C7.14964 9.78693 7.11842 9.74021 7.07907 9.70087L0.542976 3.16469C0.195314 2.81703 0 2.3455 0 1.85384C0 1.36217 0.195314 0.890637 0.542976 0.542976C0.890637 0.195314 1.36217 0 1.85384 0C2.3455 0 2.81703 0.195314 3.16469 0.542976L9.70075 7.07927C9.78023 7.1587 9.88801 7.20332 10.0004 7.20332C10.1128 7.20332 10.2205 7.1587 10.3 7.07927L16.836 0.542976C17.1837 0.195314 17.6552 2.74883e-08 18.1469 3.38332e-08C18.6385 4.01781e-08 19.1101 0.195314 19.4577 0.542976C19.8054 0.890637 20.0007 1.36217 20.0007 1.85384C20.0007 2.3455 19.8054 2.81703 19.4577 3.16469L12.9216 9.70087C12.8823 9.74021 12.851 9.78693 12.8297 9.83834C12.8084 9.88975 12.7975 9.94485 12.7975 10.0005C12.7975 10.0561 12.8084 10.1112 12.8297 10.1627C12.851 10.2141 12.8823 10.2608 12.9216 10.3001L19.4577 16.836Z" fill="white"/>
+              </svg>
+          </button>
+          <h2 class="section__title modal__title">Готовы <span>обсудить</span> ваш проект?</h2>
+          <p class="section__text modal__text">Оставьте заявку — мы перезвоним
+              в течение 1 часа, чтобы подобрать подходящий формат</p>
+
+          <form action="" class="form df f-column">
+              <div class="form__row">
+                  <input type="text" class="form__input" placeholder="Имя">
+              </div>
+              <div class="form__row">
+                  <input type="tel" class="form__input js-phone-mask" placeholder="+7(999) 999-99-99"  data-required=""
+                         data-validate-as="phone"
+                         inputmode="numeric">
+              </div>
+              <div class="form__row df f-column a-center">
+                  <button type="submit" class="btn btn__blue">Отправить</button>
+                  <p>Нажимая на кнопку вы соглашаетесь с <a href="">политикой конфиденциальности</a></p>
+              </div>
+          </form>
+
+      </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/inputmask/5.0.8/inputmask.min.js"></script>
+
+  <script src="js/main.js"></script>
 </body>
 </html>
